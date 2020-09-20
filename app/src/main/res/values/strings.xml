@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SpiceItApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="ingredients">"Ingredients"</string>
+    <string name="instructions">"Instructions"</string>
+    <string name="creator_name">"Creator's Name"</string>
+    <string name="recipe_title">"Title"</string>
+    <string name="recipe_photo_change">"Change Recipe Photo"</string>
+    <string name="profile_photo_change">"Change Profile Photo"</string>
+    <string name="recipe_photo_upload">"Upload Recipe Photo"</string>
+    <string name="recipe_share">"Share Recipe"</string>
+    <string name="save_changes">"Save Changes"</string>
+    <string name="profile_where_do_you_live">"Where do you live?"</string>
+    <string name="profile_about_you">"About you and your love for cooking"</string>
+
+
+    <string name="menu_myRecipes">My Recipes</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_editProfile">Edit Profile</string>
+    <string name="menu_addRecipe">Add New Recipe</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_start">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload_profile_photo">Upload Profile photo</string>
+    <string name="spiceitapp">SpiceItApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="recipes">Recipes</string>
+
+
+</resources>

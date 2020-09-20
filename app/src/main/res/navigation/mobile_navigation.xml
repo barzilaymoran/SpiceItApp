@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.moran.spiceitapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        android:fontFamily="@font/centabel_book"
+        android:textStyle="bold"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_recipeDetailsFragment"
+            app:destination="@id/recipeDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_myRecipes"
+        android:name="com.moran.spiceitapp.ui.myRecipes.MyRecipesFragment"
+        android:label="@string/menu_myRecipes"
+        android:fontFamily="@font/centabel_book"
+        android:textStyle="bold"
+        tools:layout="@layout/fragment_my_recipes" >
+        <action
+            android:id="@+id/action_nav_myRecipes_to_addRecipeFragment"
+            app:destination="@id/addRecipeFragment" />
+        <action
+            android:id="@+id/action_nav_myRecipes_to_myRecipeDetailsFragment"
+            app:destination="@id/myRecipeDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.moran.spiceitapp.ui.profile.MyProfileFragment"
+        android:label="@string/menu_profile"
+        android:fontFamily="@font/centabel_book"
+        android:textStyle="bold"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_nav_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.moran.spiceitapp.ui.profile.EditProfileFragment"
+        android:label="@string/menu_editProfile"
+        android:fontFamily="@font/centabel_book"
+        android:textStyle="bold"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/addRecipeFragment"
+        android:name="com.moran.spiceitapp.ui.myRecipes.AddRecipeFragment"
+        android:label="@string/menu_addRecipe"
+        android:fontFamily="@font/centabel_book"
+        android:textStyle="bold"
+        tools:layout="@layout/fragment_add_recipe" />
+    <fragment
+        android:id="@+id/recipeDetailsFragment"
+        android:name="com.moran.spiceitapp.ui.home.RecipeDetailsFragment"
+        android:label=" " >
+        <argument
+            android:name="recipe"
+            app:argType="com.moran.spiceitapp.model.Recipe" />
+        <action
+            android:id="@+id/action_recipeDetailsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myRecipeDetailsFragment"
+        android:name="com.moran.spiceitapp.ui.myRecipes.MyRecipeDetailsFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_recipe_details" >
+        <argument
+            android:name="recipe"
+            app:argType="com.moran.spiceitapp.model.Recipe" />
+        <action
+            android:id="@+id/action_myRecipeDetailsFragment_to_editRecipeFragment"
+            app:destination="@id/editRecipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editRecipeFragment"
+        android:name="com.moran.spiceitapp.ui.myRecipes.EditRecipeFragment"
+        android:label="Edit Recipe"
+        android:fontFamily="@font/centabel_book"
+        android:textStyle="bold">
+        <argument
+            android:name="recipe"
+            app:argType="com.moran.spiceitapp.model.Recipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.moran.spiceitapp.ui.profile.ProfileFragment"
+        android:label=" ">
+        <argument
+            android:name="creatorEmail"
+            app:argType="string" />
+    </fragment><action android:id="@+id/action_global_recipeDetailsFragment" app:destination="@id/recipeDetailsFragment"/>
+
+    <!-- <fragment
+         android:id="@+id/nav_gallery"
+         android:name="com.moran.spiceitapp.ui.gallery.GalleryFragment"
+         android:label="@string/menu_gallery"
+         tools:layout="@layout/fragment_gallery" />
+
+     <fragment
+         android:id="@+id/nav_slideshow"
+         android:name="com.moran.spiceitapp.ui.slideshow.SlideshowFragment"
+         android:label="@string/menu_slideshow"
+         tools:layout="@layout/fragment_slideshow" /> -->
+</navigation>

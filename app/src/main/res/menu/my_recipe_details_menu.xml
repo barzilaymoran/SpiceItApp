@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/my_recipe_details_action_edit"
+        android:icon="@drawable/ic_menu_edit"
+        app:iconTint="@color/myColorIcon"
+        android:orderInCategory="100"
+        android:title="edit"
+        app:showAsAction="always|never" />
+
+    <item
+        android:id="@+id/my_recipe_details_action_delete"
+        android:icon="@drawable/ic_menu_delete"
+        app:iconTint="@color/myColorIcon"
+        android:orderInCategory="100"
+        android:title="edit"
+        app:showAsAction="always|never" />
+</menu>

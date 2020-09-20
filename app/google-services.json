@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "756730211245",
+    "firebase_url": "https://android-app-d36d6.firebaseio.com",
+    "project_id": "android-app-d36d6",
+    "storage_bucket": "android-app-d36d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756730211245:android:0a622d5fc2668152754f24",
+        "android_client_info": {
+          "package_name": "com.moran.spiceitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756730211245-gp1s4rva7t0h90des4a7s5bdr2kflvs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASHQOExOc74RBR5ZQGkiRuOT9vnZok2ec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756730211245-gp1s4rva7t0h90des4a7s5bdr2kflvs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
